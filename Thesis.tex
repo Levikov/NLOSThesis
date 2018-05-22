@@ -52,7 +52,7 @@
 %-> Frontmatter: title page, abstract, content list, symbol list, preface
 %-
 \frontmatter% initialize the environment
-\input{Tex/Frontpages}% title page, abstract, dedication
+\input{MyThesis/Tex/Frontpages}% title page, abstract, dedication
 {% content list region
 \linespread{1.2}% local line space
 %\intotoc{\contentsname}% add link to contents table and bookmark
@@ -62,25 +62,25 @@
 %\intotoc{\listtablename}% add link to contents table and bookmark
 \listoftables% tables catalog
 }
-\input{Tex/Prematter}% list of symbols, preface content
+\input{MyThesis/Tex/Prematter}% list of symbols, preface content
 %-
 %-> Mainmatter
 %-
 \mainmatter% initialize the environment
-\input{Tex/Mainmatter}% main content
+\input{MyThesis/Tex/Mainmatter}% main content
 %-
 %-> Appendix
 %-
 \cleardoublepage%
 \appendix% initialize the environment
-\input{Tex/Appendix}% appendix content
+\input{MyThesis/Tex/Appendix}% appendix content
 %-
 %-> Backmatter: bibliography, glossary, index
 %-
 \backmatter% initialize the environment
 \intotoc{\bibname}% add link to contents table and bookmark
-\bibliography{Biblio/ref}% bibliography
-\input{Tex/Backmatter}% other information
+\bibliography{MyThesis/Biblio/ref}% bibliography
+\input{MyThesis/Tex/Backmatter}% other information
 \end{document}
 %---------------------------------------------------------------------------%
 
