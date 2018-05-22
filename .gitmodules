@@ -1,0 +1,3 @@
+[submodule "MyThesis"]
+	path = MyThesis
+	url = git@github.com:Levikov/MyThesis.git
