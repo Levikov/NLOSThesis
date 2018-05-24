@@ -11,7 +11,7 @@
 %---------------------------------------------------------------------------%
 %->> Document class declaration
 %---------------------------------------------------------------------------%
-\documentclass[doublesided]{Style/ucasthesis}%
+\documentclass[printcopy]{Style/ucasthesis}%
 %- Multiple optional arguments:
 %- [<singlesided|doublesided|printcopy>]% set one or two sided eprint or print
 %- [draftversion]% show draft version information
@@ -21,7 +21,7 @@
 %---------------------------------------------------------------------------%
 %->> Document settings
 %---------------------------------------------------------------------------%
-\usepackage[super]{Style/artratex}% document settings
+\usepackage[myhdr,super]{Style/artratex}% document settings
 %- usage: \usepackage[option1,option2,...,optionN]{artratex}
 %- Multiple optional arguments:
 %- [bibtex|biber]% set bibliography processor and package
@@ -41,6 +41,7 @@
 %- [math]% enable some extra math packages
 \usepackage{Style/artracom}% user defined commands
 \usepackage{multirow}
+\usepackage{arcs}
 %---------------------------------------------------------------------------%
 %->> Document inclusion
 %---------------------------------------------------------------------------%
