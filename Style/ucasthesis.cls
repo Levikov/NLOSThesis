@@ -352,6 +352,55 @@
         \cleardoublepage[empty]
     \fi
 }
+
+%---------------------------------------------------------------------------%
+%->> Author's declaration
+%---------------------------------------------------------------------------%
+\newcommand{\makedeclarationXIOPM}{%
+    \cleardoublepage
+    \thispagestyle{empty}
+    {
+        \linespread{1.5}
+        \zihao{-4}
+
+        \vspace*{2ex}
+
+        \begin{center}
+            {\zihao{4}\bfseries\sffamily \xiopm@value@declare@create}
+        \end{center}
+
+        {\xiopm@value@declare@creativity}
+
+        \vspace*{3ex}
+
+        {\hfill{} {\xiopm@value@declare@s \hspace*{14em}}}
+
+        {\hfill{} {\xiopm@value@declare@d \hspace*{14em}}}
+
+        \vspace*{6ex}
+
+        \begin{center}
+            {\zihao{4}\bfseries\sffamily \xiopm@value@declare@right}
+        \end{center}
+
+        {\xiopm@value@declare@rights}
+
+        {\xiopm@value@declare@rule}
+
+        \vspace*{3ex}
+
+        {\hfill{} {\xiopm@value@declare@s \hspace*{10em} \xiopm@value@declare@t \hspace*{9em}}}
+
+        {\hfill{} {\xiopm@value@declare@d \hspace*{10em} \xiopm@value@declare@d \hspace*{9em}}}
+
+        \vspace*{3ex}
+    }
+    \clearpage
+    \if@twoside
+        \thispagestyle{empty}
+        \cleardoublepage[empty]
+    \fi
+}
 %---------------------------------------------------------------------------%
 %->> New environments
 %---------------------------------------------------------------------------%
