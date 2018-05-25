@@ -2,7 +2,7 @@
   "latex-workshop.latex.tools": [
     {
       "name": "ucasthesis",
-      "command": "./artratex",
+      "command": "./artratex.sh",
       "args": [
         "xa",
         "Thesis.tex"
@@ -38,25 +38,11 @@
     }
   ],
   "latex-workshop.latex.recipes": [
-    {
-      "name": "latexmk",
-      "tools": [
-        "latexmk"
-      ]
-    },
+
     {
       "name": "ucasthesis",
       "tools": [
         "ucasthesis"
-      ]
-    },
-    {
-      "name": "pdflatex -> bibtex -> pdflatex*2",
-      "tools": [
-        "pdflatex",
-        "bibtex",
-        "pdflatex",
-        "pdflatex"
       ]
     }
   ],
