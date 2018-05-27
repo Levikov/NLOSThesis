@@ -47,7 +47,7 @@
     }
   ],
   "latex-workshop.latex.clean.enabled": true,
-  "latex-workshop.latex.autoBuild.onSave.enabled": true,
+  "latex-workshop.latex.autoBuild.onSave.enabled": false,
   "editor.wordWrap": "on",
   "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true,
   "latex-workshop.latex.autoBuild.onTexChange.enabled": true
