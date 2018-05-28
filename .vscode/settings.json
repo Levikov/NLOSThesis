@@ -4,8 +4,16 @@
       "name": "ucasthesis",
       "command": "./artratex.sh",
       "args": [
-        "xa",
+        "x",
         "Thesis.tex"
+      ]
+    },
+    {
+      "name": "clean",
+      "command": "rm",
+      "args": [
+        "-rf",
+        "Tmp"
       ]
     },
     {
@@ -42,12 +50,12 @@
     {
       "name": "ucasthesis",
       "tools": [
-        "ucasthesis"
+        "clean","ucasthesis"
       ]
     }
   ],
   "latex-workshop.latex.clean.enabled": true,
-  "latex-workshop.latex.autoBuild.onSave.enabled": false,
+  "latex-workshop.latex.autoBuild.onSave.enabled": true,
   "editor.wordWrap": "on",
   "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true,
   "latex-workshop.latex.autoBuild.onTexChange.enabled": true
